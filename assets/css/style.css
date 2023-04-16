@@ -15592,6 +15592,12 @@ input, textarea {
     flex-basis: calc(50% );
     text-transform: uppercase;
 }
+@media (max-width: 768px) {
+    .about-display-wrapper .content .left{
+        margin: 60px 15px 5px 15px;
+        text-transform: none;
+    }
+}
 .about-display-wrapper .content .left .sup-title {
     display: inline-block;
     font-size: 22px;
@@ -15634,7 +15640,7 @@ input, textarea {
 * Component - Working Progress Display
 ****************************************/
 .video-wrapper {
-    margin-top: 80px;
+    margin-top: -15px;
 }
 @media (min-width: 992px) {
     .video-wrapper {
@@ -18075,7 +18081,7 @@ Components - Sidebar Widget
 }
 .footer-top-wrapper .newsletter-form-group input {
     width: 100%;
-    background: linear-gradient(90deg, #25100f 0%, #25100f 100%);
+    background: linear-gradient(90deg, #040303 0%, #605e5ed1 100%);
     border-radius: 10px;
     padding: 15px 30px;
     position: relative;
@@ -18312,7 +18318,7 @@ Components - Sidebar Widget
     transition: all 0.5s ease;
     transform: translateX(100%);
     box-shadow: none;
-    background: #301514;
+    background: linear-gradient(90deg, #0c0909 0%, #72675f 100%);
     width: 300px;
     overflow-x: hidden;
 }
@@ -18472,7 +18478,7 @@ Components - Sidebar Widget
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     cursor: hand;
     border-radius: 50%;
-    background: #301514;
+    background: #685555;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
 }
