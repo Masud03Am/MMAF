@@ -15937,7 +15937,7 @@ input, textarea {
 *****************************/
 .blog-feed-slider {
     padding-left: 0;
-    margin-bottom: -30px;
+    margin-bottom: 0px;
 }
 @media (min-width: 1800px) {
     .blog-feed-slider {
@@ -18001,6 +18001,7 @@ Components - Sidebar Widget
     padding-bottom: 70px;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 @media (min-width: 992px) {
     .footer-top-wrapper {
@@ -18021,6 +18022,14 @@ Components - Sidebar Widget
 @media (min-width: 1800px) {
     .footer-top-wrapper .logo {
         width: 30%;
+    }
+}
+@media (max-width: 768px){
+    .footer-top-wrapper .logo{
+        display: none;
+    }
+    .footer-top-wrapper{
+        padding-top: 25px;
     }
 }
 .footer-top-wrapper .newsletter {
