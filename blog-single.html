@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru-EN">
+<head>
+	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    	<title>MMAF</title>
+	<!-- ::::::::::::::Favicon icon::::::::::::::-->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+
+	<!-- ::::::::::::::All CSS Files here :::::::::::::: -->
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href="assets/css/vendor/icofont.min.css">
+  
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/animate.css">
+	<link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+	<link rel="stylesheet" href="assets/css/plugins/venobox.min.css">
+	<link rel="stylesheet" href="assets/css/plugins/aos.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- preloader start -->
+	<div id="loading">
+		<div id="loading-center">
+			<div id="loading-center-absolute">
+				<div class="object" id="object_one"></div>
+				<div class="object" id="object_two"></div>
+				<div class="object" id="object_three"></div>
+				<div class="object" id="object_four"></div>
+			</div>
+		</div>
+	</div>
+	<!-- preloader end -->
+
+
+	<main class="main-wrapper">
+
+		<!-- .....:::::: Start Header Section :::::.... -->
+		<header class="header-section d-none d-lg-block">
+    
+		    <!-- Start Header Top -->
+		    <div class="header-top">
+			  <div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-auto">
+						<!-- Start Header Top Left  -->
+						<div class="header-top-right">
+							<p><a href="mailto:demo@example.com"> <i class="icofont-email"></i> <span class="text">MMAF@ExampleMail.ru </span> </a>  || 
+								<a href="tel:+0123456789"> <span> <i class="icofont-phone"></i> </span> <span>+992 99 999 99</span> </a></p>
+						</div>
+						<!-- End Header Top Left  -->
+					  </div>
+					  <div class="col-auto">
+						<!-- Start Header Top Right  -->
+						<div class="header-top-left">
+						    <a href="mailto:demo@example.com" class="btn btn-lg btn-primary text-uppercase">
+							  <span> Связаться <i class="icofont-double-right icon-space-left"></i></span> </a>
+						</div>
+						<!-- End Header Top Right  -->
+					  </div>
+				</div>
+			  </div>
+		    </div>
+		    <!-- End Header Top -->
+    
+		    <!-- Start Header Bottom -->
+		    <div class="header-bottom sticky-header">
+			  <div class="container">
+				<div class="row justify-content-between align-items-center">
+				    <div class="col-auto">
+					  <!-- Start Header Logo -->
+					  <div class="logo"><a href="index.html"><img src="assets/images/logo/logo1.png" alt=""></a>
+					  </div>
+					  <!-- End Header Logo -->
+				    </div>
+				    <div class="col-auto">
+					  <!-- Start Header Logo -->
+					  <ul class="header-nav">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="project-list.html">Галерея</a></li>
+						<li><a href="blog.html">Новости</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					  </ul>
+					  <!-- End Header Logo -->
+				    </div>
+				    <div class="col-auto">
+					  <!-- Start Header Social Link -->
+					  <ul class="social-link social-link-white">
+						<li><a target="_blank" href="https://example.com"><i class="icofont-facebook"></i></a>
+						</li>
+						<li><a target="_blank" href="https://example.com"><i class="icofont-twitter"></i></a>
+						</li>
+						<li><a target="_blank" href="https://example.com"><i class="icofont-skype"></i></a></li>
+					  </ul>
+					  <!-- Start Header Social Link -->
+				    </div>
+				</div>
+			  </div>
+		    </div>
+		    <!-- End Header Bottom -->
+		</header>
+		<!-- .....:::::: End Header Section :::::.... -->
+    
+		<!-- .....:::::: Start Mobile Header Section :::::.... -->
+		<div class="mobile-header d-block d-lg-none">
+		    <div class="container">
+			  <div class="row align-items-center justify-content-between">
+				<div class="col">
+				    <div class="mobile-logo">
+				    <a href="index.html"><img src="assets/images/logo/logo1.png" alt=""></a>
+				    </div>
+				</div>
+				<div class="col">
+				    <div class="mobile-action-link text-end">
+				    <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="icofont-navigation-menu"></i></a>
+				    </div>
+				</div>
+			  </div>
+		    </div>
+		</div>
+		<!-- .....:::::: Start MobileHeader Section :::::.... -->
+    
+		<!--  Start Offcanvas Mobile Menu Section -->
+		<div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
+		    <!-- Start Offcanvas Header -->
+		    <div class="offcanvas-header text-right">
+			  <button class="offcanvas-close"><i class="icofont-close-line"></i></button>
+		    </div> <!-- End Offcanvas Header -->
+		    <!-- Start Offcanvas Mobile Menu Wrapper -->
+		    <div class="offcanvas-mobile-menu-wrapper">
+			  <!-- Start Mobile Menu  -->
+			  <div class="mobile-menu-bottom">
+				<!-- Start Mobile Menu Nav -->
+				<div class="offcanvas-menu">
+				    <ul>
+					  <li><a href="index.html"><span>Главная</span></a></li>
+					  <li><a href="about.html">О нас</a></li>
+					  <li><a href="project-list.html">Галерея</a></li>                           
+					  <li><a href="blog.html">Новости</a></li>        
+					  <li><a href="contact.html"><span>Контакты</span></a></li>
+				    </ul>
+				</div> <!-- End Mobile Menu Nav -->
+			  </div> <!-- End Mobile Menu -->
+    
+			  <!-- Start Mobile contact Info -->
+			  <div class="mobile-contact-info text-center">
+				<ul class="social-link social-link-white">
+				    <li><a target="_blank" href="https://example.com"><i class="icofont-facebook"></i></a>
+				    </li>
+				    <li><a target="_blank" href="https://example.com"><i class="icofont-twitter"></i></a>
+				    </li>
+				    <li><a target="_blank" href="https://example.com"><i class="icofont-skype"></i></a></li>
+				</ul>
+			  </div>
+			  <!-- End Mobile contact Info -->
+    
+		    </div> <!-- End Offcanvas Mobile Menu Wrapper -->
+		</div>
+		<!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
+    
+		<!-- Offcanvas Overlay -->
+		<div class="offcanvas-overlay"></div>
+		<!-- .....:::::: Start Breadcrumb Section :::::.... -->
+		<div class="breadcrumb-section">
+			<div class="breadcrumb-wrapper">
+			    <div class="image"><img src="assets/images/background/breadcrumb.png" alt=""></div>
+			    <div class="container">
+				  <div class="row">
+					<div class="col-12">
+					    <div class="content">
+						  <h2 class="title">НАШИ НОВОСТИ</h2>
+						  <ol class="breadcrumb-link">
+							<li><a href="index.html">Главная</a></li>
+							<li class="active" aria-current="page">Новости</li>
+						  </ol>
+					    </div>
+					</div>
+				  </div>
+			    </div>            
+			</div>
+		  </div>
+		  <!-- .....:::::: End Breadcrumb Section :::::.... -->
+	
+			<!-- start main content area -->
+		<div class="site-content blog-page section-bg-color section-padding-140">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 main-content">
+						<div class="blog-content">
+							<article class="entry-single post-item">
+								<div class="post-thumb">
+									<a href="#"><img src="assets/images/blog/thumb/01.jpg" alt="thumb"></a>
+								</div>
+								<div class="post-content">
+									<h2 class="title">Отличительная интуитивная идея привода MMA в Таджикистан.</h2>
+									<ul class="post-meta">
+										<li>От: <a href="#">Админа</a></li>
+										<li>18 Апреля, 2023</li>
+										<li><i class="icofont-comments"></i>06</li>
+									</ul>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<blockquote>
+										<p>Отличительная интуитивная идея привода MMA в Таджикистан.</p>
+									</blockquote>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+									<p>Смешанные единоборства - один из самых быстро развивающихся спортивных дисциплин в мире, в том числе и в Таджикистане, особенно среди молодежи. Сегодня только в Душанбе открыты десятки спортивных залов, где обучают смешанным единоборствам и практически все забиты.</p>
+								</div>
+								<div class="post-footer d-flex flex-wrap justify-content-between align-items-center">
+									<div class="post-tag">
+										<ul class="tag d-flex flex-wrap align-items-center">
+											<li><i class="icofont-tag" aria-hidden="true"></i></li>
+											<li><a href="#">Бокс</a></li>
+											<li><a href="#">ММА</a></li>
+											<li><a href="#">Борьба</a></li>
+										</ul>
+									</div>
+									<div class="post-social">
+										<ul class="social-media align-items-center">
+											<li>Поделиться с:</li>
+											<li><a href="" class="facebook"><i class="icofont-facebook"></i></a></li>
+											<li><a href="" class="twitter"><i class="icofont-twitter"></i></a></li>
+											<li><a href="" class="linkedin"><i class="icofont-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</article>
+							<div class="row">
+								<div class="col-12">
+								    <div class="pagination-wrapper">
+									  <ul class="pagination-nav">
+										<li class="prev"><a href="#"><i class="icofont-rounded-double-left"></i></a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li class="next"><a href="#"><i class="icofont-rounded-double-right"></i></a></li>
+									  </ul>
+								    </div>
+								</div>
+							</div>
+							<div class="ccr-section">
+								<h4 class="section-title">Комментарии</h4>
+								<ul class="comments-list">
+									<li class="comments">
+										<div class="thumb">
+											<img src="assets/images/single/comments/01.jpg" alt="thumb">
+										</div>
+										<div class="content">
+											<div class="comment-heading"><a class="name" href="#">Кто-то</a> <span>Апр 18, 2023 в 10:30 AM</span></div>
+											<p>Что-то </p>
+											<a href="#" class="reply">Ответить</a>
+										</div>
+									</li>
+	
+									<li class="comments">
+										<div class="thumb">
+											<img src="assets/images/single/comments/01.jpg" alt="thumb">
+										</div>
+										<div class="content">
+											<div class="comment-heading"><a class="name" href="#">Кто-то</a> <span>Апр 18, 2023 в 10:30 AM</span></div>
+											<p>Что-то </p>
+											<a href="#" class="reply">Ответить</a>
+										</div>
+	
+										<ul class="comment-sub-list">
+											<li class="comments">
+												<div class="thumb">
+													<img src="assets/images/single/comments/01.jpg" alt="thumb">
+												</div>
+												<div class="content">
+													<div class="comment-heading"><a class="name" href="#">Кто-то</a> <span>Апр 18, 2023 в 10:30 AM</span></div>
+													<p>Что-то </p>
+													<a href="#" class="reply">Ответить</a>
+												</div>
+											</li>
+										</ul>
+									</li>
+	
+									<li class="comments">
+										<div class="thumb">
+											<img src="assets/images/single/comments/01.jpg" alt="thumb">
+										</div>
+										<div class="content">
+											<div class="comment-heading"><a class="name" href="#">Кто-то</a> <span>Апр 18, 2023 в 10:30 AM</span></div>
+											<p>Что-то </p>
+											<a href="#" class="reply">Ответить</a>
+										</div>
+									</li>
+								</ul><!-- /.comments-list -->
+							</div>
+							<!-- Start Contact Box Wrapper - Right -->
+							<div class="contact-box-single-item contact-box-contact-form right">
+								<!-- Start Section Content -->
+								<div class="section-content section-content-space-small">
+								    <h3 class="sub-title">Комментировать</h3>
+								</div>
+								<!-- End Section Content -->
+		    
+								<div class="default-form-wrapper">
+								    <form id="contact-form" class="form-group contact-form" action="assets/mail/contact.php" method="post">
+									  <div class="row mb-n6">
+										<div class="col-xl-12 col-lg-4 col-12 mb-6">
+										    <!-- Start Form Group Single Item -->
+										    <div class="form-group-single-item form-group-single-item-inner-bg">
+											  <input name="name" type="text" placeholder="Имя *">
+										    </div>
+										    <!-- End Form Group Single Item -->
+										</div>
+										<div class="col-xl-12 col-lg-4 col-12 mb-6">
+										    <!-- Start Form Group Single Item -->
+										    <div class="form-group-single-item form-group-single-item-inner-bg">
+											  <input name="email" type="email" placeholder="Почта *">
+										    </div>
+										    <!-- End Form Group Single Item -->
+										</div>
+										<div class="col-xl-12 col-lg-4 col-12 mb-6">
+										    <!-- Start Form Group Single Item -->
+										    <div class="form-group-single-item form-group-single-item-inner-bg">
+											  <input name="phone" type="tel" placeholder="Телефон *">
+										    </div>
+										    <!-- End Form Group Single Item -->
+										</div>
+										<div class="col-12 mb-6">
+										    <!-- Start Form Group Single Item -->
+										    <div class="form-group-single-item form-group-single-item-inner-bg">
+											  <textarea name="message" rows="6" placeholder="Оставьте свой комментарий"></textarea>
+										    </div>
+										    <!-- End Form Group Single Item -->
+										</div>
+										<div class="col-12 mb-6 text-center">
+										    <button type="submit" class="btn btn-lg btn-primary">Отправить</button>
+										</div>
+										<p class="form-messege"></p>
+									  </div>
+								    </form>
+								</div>
+							  </div>
+						</div>
+					</div>
+					<aside class="col-lg-4 sidebar mt-5 mt-lg-0">
+						<div class="widget search">
+							<div class="widget-wrapper">
+								<form action="#">
+									<input type="text" name="search" placeholder="Поиск"><i class="icofont-search"></i>
+								</form>
+							</div>
+						</div>
+						<div class="widget catagories">
+							<h5 class="widget-title">Категории</h5>
+							<div class="widget-wrapper">
+								<ul class="catagories-list">
+									<li><a href="#">ММА (02)</a></li>
+									<li><a href="#">Бокс (04)</a></li>
+									<li><a href="#">Борьба (03)</a></li>
+									<li><a href="#">Грепплинг (06)</a></li>
+									<li><a href="#">Кикбоксинг (01)</a></li>
+									<li><a href="#">Карате (02)</a></li>
+									<li><a href="#">Панкратион (08)</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="widget popular-post">
+							<h5 class="widget-title">Популярные новости</h5>
+							<div class="widget-wrapper">
+								<ul class="small-post-list">
+									<li class="post-item">
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/small-thumb/01.jpg" alt="thumb"></a>
+										</div>
+										<div class="post-content">
+											<a href="#">Отличительная интуитивная идея привода MMA в Таджикистан.</a>
+											<ul class="post-meta">
+												<li>18 Апреля, 2023</li>
+											</ul>
+										</div>
+									</li>
+									<li class="post-item">
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/small-thumb/02.jpg" alt="thumb"></a>
+										</div>
+										<div class="post-content">
+											<a href="#">Отличительная интуитивная идея привода MMA в Таджикистан.</a>
+											<ul class="post-meta">
+												<li>18 Апреля, 2023</li>
+											</ul>
+										</div>
+									</li>
+									<li class="post-item">
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/small-thumb/03.jpg" alt="thumb"></a>
+										</div>
+										<div class="post-content">
+											<a href="#">Отличительная интуитивная идея привода MMA в Таджикистан.</a>
+											<ul class="post-meta">
+												<li>18 Апреля, 2023</li>
+											</ul>
+										</div>
+									</li>
+									<li class="post-item">
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/small-thumb/01.jpg" alt="thumb"></a>
+										</div>
+										<div class="post-content">
+											<a href="#">Отличительная интуитивная идея привода MMA в Таджикистан.</a>
+											<ul class="post-meta">
+												<li>18 Апреля, 2023</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--<div class="widget tag">
+							<h5 class="widget-title">Catagories</h5>
+							<div class="widget-wrapper">
+								<ul class="tag-list">
+									<li><a href="#">Design</a></li>
+									<li><a href="#">HTML5</a></li>
+									<li><a href="#">CSS3</a></li>
+									<li><a href="#">ui/us</a></li>
+									<li><a href="#">Photoshop</a></li>
+									<li><a href="#">Art</a></li>
+									<li><a href="#">WordPress</a></li>
+									<li><a href="#">Illastrator</a></li>
+									<li><a href="#">Art</a></li>
+									<li><a href="#">Design</a></li>
+									<li><a href="#">Photoshop</a></li>
+								</ul>
+							</div>
+						</div>-->
+					</aside>
+				</div>
+			</div>
+		</div>
+		<!-- end main content area -->
+
+
+
+
+		<!-- .....:::::: Start Footer Section :::::.... -->
+		<footer class="footer-section footer-bg">
+			<!-- Start Footer Top -->
+			<div class="footer-top">
+			    <div class="container">
+				  <div class="footer-top-wrapper">
+					<!-- Start Footer Logo -->
+					<a href="index.html" class="logo">
+					    <img class="img-fluid" src="assets/images/logo/logo1.png" alt="">
+					</a>
+					<!-- End Footer Logo -->
+	
+					<!-- Start Footer Newsletter -->
+					<div class="newsletter">
+					    <div class="content">
+						  <h4 class="title-tag text-gradient">ПОДПИШИСЬ СЕЙЧАС</h4>
+						  <h3 class="sub-title">ПОЛУЧИТЕ ВСЁ НОВОЕ</h3>
+					    </div>
+					    <div class="newsletter-form">
+						  <form class="newsletter-form-group" action="#" method="post">
+							<input type="email" placeholder="Введите свою почту" required>
+							<button class="newsletter-submit-btn text-gradient" type="submit"><i class="icofont-paper-plane"></i></button>
+						  </form>
+					    </div>
+					</div>
+					<!-- Start Footer Newsletter -->
+					<!-- <div class="bg-color-dark-red"></div> -->
+				  </div>
+			    </div>
+			    <div class="bg-color-bold-red"></div>
+			</div>
+			<!-- Start Footer Top -->
+	
+			<!-- Start Footer Center -->
+			<div class="footer-center section-top-space">
+			    <div class="container">
+				  <div class="row justify-content-xl-between">
+					<div class="col-xl-auto col-md-6 col-12">
+					    <div class="footer-widget-single-item">
+						  <h3 class="title">СВЯЗАТЬСЯ С НАМИ</h3>
+	
+						  <ul class="footer-about">
+							<li>
+								<div class="text"><span class="text-marker">Расположение:</span>Ваш адрес будет здесь.</div>
+							</li>
+							<li>
+								<div class="text"><span class="text-marker">Телефон:</span><a href="tel:+0123456789">+992 99 999 99 99</a></div>
+							</li>
+							<li>
+								<div class="text"><span class="text-marker">Сайт:</span><a href="https://www.example.com">www.example.com</a></div>
+							</li>
+							<li>
+								<div class="text"><span class="text-marker">Почта:</span> <a href="mailto:demo@example.com">MMAF@example.com</a> </div>
+							</li>
+						  </ul>
+					    </div>
+					</div>
+					<div class="col-xl-auto col-md-6 col-12">
+					    <div class="footer-widget-single-item">
+						  <h3 class="title">СВЕЖИЕ НОВОСТИ</h3>
+	
+						  <ul class="footer-blog">
+							<li>
+							    <a href="blog-details.html" class="image">
+								  <img src="assets/images/blog/blog-list-img-1.png" alt="">
+							    </a>
+							    <div class="content">
+								  <a class="title" href="blog-details.html">Lorem Ipsum simply dumme printing and type industry.</a>
+								  <span class="date">18 Апреля, 2023</span>
+							    </div>
+							</li>
+							<li>
+							    <a href="blog-details.html" class="image">
+								  <img src="assets/images/blog/blog-list-img-1.png" alt="">
+							    </a>
+							    <div class="content">
+								  <a class="title" href="blog-details.html">Lorem Ipsum simply dumme printing and type industry.</a>
+								  <span class="date">17 Апреля, 2023</span>
+							    </div>
+							</li>
+	
+						  </ul>
+					    </div>
+					</div>
+					<div class="col-xl-auto col-md-6 col-12">
+					    <div class="footer-widget-single-item">
+						  <h3 class="title">НАШИ СЕРВИСЫ</h3>
+						  <ul class="footer-nav">
+							<li><a href="#">СВЕЖИЕ НОВОСТИ MMA</a></li>
+							<li><a href="#">СВЕЖИЕ НОВОСТИ MMA</a></li>
+							<li><a href="#">СВЕЖИЕ НОВОСТИ MMA</a></li>
+							<li><a href="#">СВЕЖИЕ НОВОСТИ MMA</a></li>
+							<li><a href="#">СВЕЖИЕ НОВОСТИ MMA</a></li>
+							<li><a href="#">СВЕЖИЕ НОВОСТИ MMA</a></li>
+						  </ul>
+					    </div>
+					</div>
+					<div class="col-xl-auto col-md-6 col-12">
+					    <div class="footer-widget-single-item">
+						  <h3 class="title">ССЫЛКИ</h3>
+						  <ul class="footer-nav">
+							<li><a href="#">Компания</a></li>
+							<li><a href="#">Центр помощи</a></li>
+							<li><a href="#">Наши новости</a></li>
+							<li><a href="#">Наша Команда</a></li>
+							<li><a href="#">Наша Галерея</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						  </ul>
+					    </div>
+					</div>
+				  </div>
+			    </div>
+			</div>
+			<!-- Start Footer Center -->
+	
+			<!-- Start Footer Bottom -->
+			<div class="footer-bottom ">
+			    <div class="container">
+				  <div class="row justify-content-md-between justify-content-center align-items-center flex-column-reverse flex-md-row">
+					<div class="col-auto">
+					    <div class="footer-bottom-left">
+						  <div class="footer-copyright">
+							<p class="copyright-text">&copy; 2023 <a href="index.html">MMAF</a> Сделано с <i class="icofont-heart"></i> от <a href="#" target="_blank">Masud</a> </p>
+						  </div>
+					    </div>
+					</div>
+					<div class="col-auto">
+					    <div class="footer-bottom-right">
+						  <ul class="footer-soacial">
+							<li><a href="https://www.example.com" target="_blank">Facebook</a></li>
+							<li><a href="https://www.example.com" target="_blank">Twitter</a></li>
+							<li><a href="https://www.example.com" target="_blank">Instagram</a></li>
+							<li><a href="https://www.example.com" target="_blank">LinkedIn</a></li>
+						  </ul>
+					    </div>
+					</div>
+				  </div>
+			    </div>
+			</div>
+			<!-- Start Footer Bottom -->
+		  </footer>
+		  <!-- .....:::::: End Footer Section :::::.... -->
+		<!-- .....:::::: End Footer Section :::::.... -->
+
+
+		<!-- material-scrolltop button -->
+		<button class="material-scrolltop" type="button"></button>
+	</main>
+
+
+	<!-- ::::::::::::::All JS Files here :::::::::::::: -->
+	<!-- Global Vendor, plugins JS -->
+	<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
+	<script src="assets/js/vendor/popper.min.js"></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/jquery-ui.min.js"></script>
+  
+	<!--Plugins JS-->
+	<script src="assets/js/plugins/swiper-bundle.min.js"></script>
+	<script src="assets/js/plugins/material-scrolltop.js"></script>
+	<script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+	<script src="assets/js/plugins/images-loaded.min.js"></script>
+	<script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+	<script src="assets/js/plugins/venobox.min.js"></script>
+	<script src="assets/js/plugins/aos.min.js"></script>
+	<script src="assets/js/plugins/parallax.js"></script>
+	<script src="assets/js/plugins/ajax-mail.js"></script>
+	<script src="assets/js/plugins/waypoint.js"></script>
+	<script src="assets/js/plugins/counter.js"></script>
+  
+	<!-- Use the minified version files listed below for better performance and remove the files listed above -->
+	<!-- <script src="assets/js/vendor/vendor.min.js"></script>
+	<script src="assets/js/plugins/plugins.min.js"></script> -->
+  
+	<!-- Main JS -->
+	<script src="assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
